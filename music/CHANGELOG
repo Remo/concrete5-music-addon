@@ -1,0 +1,4 @@
+1.0.4 - Added wmode option to specify window mode http://kb2.adobe.com/cps/127/tn_12701.html
+1.0.2 - Fixed problem with File object
+1.0.1 - Fixed file manager calls due to changes in ccm_chooseAsset
+1.0 - Initial Release

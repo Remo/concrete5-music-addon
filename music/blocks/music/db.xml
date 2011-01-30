@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btMusicPlayer">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="width" type="I">
+			<unsigned />
+		</field>
+		<field name="height" type="I">
+			<unsigned />
+		</field>
+		<field name="autoStart" type="I">
+			<unsigned />
+			<default value="1" />
+		</field>
+		<field name="autoLoad" type="I">
+			<unsigned />
+			<default value="1" />
+		</field>
+		<field name="repeatTracks" type="I">
+			<unsigned />
+			<default value="1" />
+		</field>
+		<field name="shuffle" type="I">
+			<unsigned />
+			<default value="1" />
+		</field>
+		<field name="shortcuts" type="I">
+			<unsigned />
+			<default value="1" />
+		</field>
+		<field name="skin" type="C" size="255">
+		</field>
+		<field name="wmode" type="C" size="255">
+		</field>
+	</table>
+	<table name="btMusicPlayerFiles">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="fID" type="I">
+			<key />
+			<unsigned />
+		</field>
+	</table>	
+</schema>
