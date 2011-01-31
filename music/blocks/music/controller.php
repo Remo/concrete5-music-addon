@@ -24,7 +24,12 @@
 		protected $btInterfaceWidth = 450;
 		protected $btInterfaceHeight = 430;
 		protected $btTable = 'btMusicPlayer';
-
+		protected $btCacheBlockRecord = true;
+		protected $btCacheBlockOutput = true;
+		protected $btCacheBlockOutputOnPost = true;
+		protected $btCacheBlockOutputForRegisteredUsers = true;
+      protected $btCacheBlockOutputLifetime = 60*30; // 30 minutes
+      
    	function __construct($obj = null) {
    		parent::__construct($obj);
    		$this->db = Loader::db();
