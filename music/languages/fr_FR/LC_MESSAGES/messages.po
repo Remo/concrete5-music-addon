@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: music 1.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-08 18:21+0100\n"
+"PO-Revision-Date: 2011-03-08 19:05+0100\n"
+"Last-Translator: cali <cali@concrete5.fr>\n"
+"Language-Team: Concrete5 FR <team@concrete5.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: blocks/music/add.php:19
+#: blocks/music/edit.php:10
+#: blocks/music/form.php:11
+#: blocks/music/view.php:10
+#: blocks/music/controller.php:11
+#: controller.php:3
+msgid "Access Denied."
+msgstr "Accès refusé."
+
+#: blocks/music/form.php:20
+msgid "MP3 Files"
+msgstr "Fichier MP3"
+
+#: blocks/music/form.php:27
+#: blocks/music/form.php:39
+msgid "remove file"
+msgstr "retirer le fichier"
+
+#: blocks/music/form.php:43
+msgid "Add new file"
+msgstr "Ajouter un nouveau fichier"
+
+#: blocks/music/form.php:45
+msgid "Layout"
+msgstr "Agencement"
+
+#: blocks/music/form.php:49
+msgid "Skin"
+msgstr "Thème"
+
+#: blocks/music/form.php:60
+msgid "Width"
+msgstr "Largeur"
+
+#: blocks/music/form.php:64
+msgid "Height"
+msgstr "Hauteur"
+
+#: blocks/music/form.php:68
+msgid "Window Mode"
+msgstr "Mode de la fenêtre"
+
+#: blocks/music/form.php:78
+msgid "Settings"
+msgstr "Paramètres"
+
+#: blocks/music/form.php:81
+msgid "Auto Load MP3 Files"
+msgstr "Charger les fichiers MP3 automatiquement"
+
+#: blocks/music/form.php:84
+msgid "Auto Start"
+msgstr "Lecture automatique"
+
+#: blocks/music/form.php:87
+msgid "Shuffle"
+msgstr "Shuffle"
+
+#: blocks/music/form.php:90
+msgid "Repeat"
+msgstr "Répétition"
+
+#: blocks/music/form.php:93
+msgid "Enable Shortcuts"
+msgstr "Permettre les racourics"
+
+#: blocks/music/view.php:14
+msgid "Content disabled in edit mode."
+msgstr "Contenu désactivé en mode édition."
+
+#: blocks/music/controller.php:34
+#: controller.php:12
+msgid "Plays music files using the flash based EMFF player."
+msgstr "Lis des fichiers audio en utilisant le lecteur Flash EMFF."
+
+#: blocks/music/controller.php:38
+#: controller.php:16
+msgid "Music"
+msgstr "Musique"
+
